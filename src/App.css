@@ -1,3 +1,4 @@
+
 .navbar {
   top: 20px;
   transition: all 0.3s ease-in-out;
@@ -33,3 +34,65 @@
   from { opacity: 0; transform: translateY(-10px); }
   to { opacity: 1; transform: translateY(0); }
 }
+.portada {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Espaço entre os elementos */
+  /*background-color: #0d6efd;*//*cor para ver a dimensao da div*/
+  padding: 50px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+/* Estilização do Texto */
+.text-apr {
+  flex: 1;
+  color: white;
+  padding: 20px;
+  max-width: 50%;
+}
+
+span{
+  color: #0d6efd;
+}
+
+.text-apr h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.text-apr p {
+  font-size: 1.2rem;
+}
+
+/* Ícone do Controle */
+.icon-apr {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.icon-apr i {
+  font-size: 450px;
+  color: white;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .portada {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .text-apr, .icon-apr {
+      max-width: 100%;
+  }
+
+  .icon-apr i {
+      font-size: 100px; /* Ícone menor em telas pequenas */
+  }
+}
+
+
