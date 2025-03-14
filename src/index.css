@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
 /* Reset e configurações globais */
 .corpo {
   background-color: black;
@@ -6,4 +6,5 @@
 }
 html{
   background-color: black;
+  font-family: "Poppins", sans-serif;
 }
